@@ -1,19 +1,11 @@
-#3) Modifique a classe Televisão de forma que, se pedirmos para mudar o canal 
-# para baixo, além do mínimo, ela vá para o canal máximo. Se mudarmos para cima, 
-# além do canal máximo, que volte ao canal mínimo. Exemplo:
-
-#> > > tv=Televisão(2,10)
-#> > > tv.muda_canal_para_baixo()
-##> > > tv.canal
-#10
-#> > > tv.muda_canal_para_cima()
-#> > > tv.canal
-#2
+#4) Utilizando o que aprendemos com funções, modifique o construtor da 
+# classe Televisão de forma que min e max sejam parâmetros opcionais, 
+# onde min vale 2 e max vale 14, caso outro valor não seja passado.
 
 
-from televisao_questao_03 import Televisão
+from televisao_questao_04 import Televisão
 
-tv_01 = Televisão(7, 2, 10)
+tv_01 = Televisão(7)
 tv_01.tamanho = 50
 tv_01.marca = "LG"
 
