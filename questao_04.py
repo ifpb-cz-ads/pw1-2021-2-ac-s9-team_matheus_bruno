@@ -3,7 +3,7 @@
 # onde min vale 2 e max vale 14, caso outro valor não seja passado.
 
 
-from televisao_questao_04 import Televisão
+from .classes.Televisao.televisao_questao_04 import Televisão
 
 tv_01 = Televisão(7)
 tv_01.tamanho = 50

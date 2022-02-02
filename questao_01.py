@@ -3,7 +3,7 @@
 # Depois, imprima o valor desses atributos de forma a confirmar a independência 
 # dos valores de cada instância (objeto).
 
-from televisao_questao_01 import Televisão
+from .classes.Televisao.televisao_questao_01 import Televisão
 
 tv_01 = Televisão()
 tv_01.tamanho = 50
