@@ -1,7 +1,7 @@
 #2) Atualmente, a classe Televisão inicializa o canal com 2. Modifique a classe Televisão de forma a receber 
 #o canal inicial em seu construtor.
 
-from .classes.Televisao.televisao_questao_02 import Televisão
+from classes.Televisao.televisao_questao_02 import Televisão
 
 tv_01 = Televisão(7)
 tv_01.tamanho = 50

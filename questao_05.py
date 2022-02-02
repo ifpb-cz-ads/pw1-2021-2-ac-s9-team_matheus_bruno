@@ -2,7 +2,7 @@
 # (objetos), especificando o valor de min e max por nome.
 
 
-from .classes.Televisao.televisao_questao_05 import Televisão
+from classes.Televisao.televisao_questao_05 import Televisão
 
 tv_01 = Televisão(7, canal_min=4, canal_max= 10)
 tv_01.tamanho = 50

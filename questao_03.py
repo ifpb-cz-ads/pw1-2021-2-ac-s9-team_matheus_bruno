@@ -11,7 +11,7 @@
 #2
 
 
-from .classes.Televisao.televisao_questao_03 import Televisão
+from classes.Televisao.televisao_questao_03 import Televisão
 
 tv_01 = Televisão(7, 2, 10)
 tv_01.tamanho = 50
